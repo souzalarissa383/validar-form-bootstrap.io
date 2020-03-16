@@ -23,7 +23,7 @@ function validar () {
 
         }
         if(rep_senha == "" || rep_senha.length <= 5){
-            alert('Preencha o campo senha com minimo 6 caracteres');
+            alert('Confirme sua senha com minimo de 6 caracteres');
             form.senha.focus();
             return false;
         }
